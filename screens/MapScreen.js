@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import MapView, { Marker } from 'react-native-maps';
 import { View, ActivityIndicator } from 'react-native';
 
-const API_URL = 'http://172.26.58.61:3000';
+const API_URL = 'http://192.168.1.62:3000';
 
 export default function MapScreen() {
   const [hotwheels, setHotwheels] = useState([]);

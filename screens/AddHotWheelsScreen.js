@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 import * as ImagePicker from 'expo-image-picker';
 import styles from '../styles/styles';
 
-const API_URL = 'http://172.26.58.61:3000';
+const API_URL = 'http://192.168.1.62:3000';
 
 export default function AddHotWheelsScreen({ navigation }) {
   const [name, setName] = useState('');

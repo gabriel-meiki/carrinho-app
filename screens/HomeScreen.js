@@ -4,7 +4,7 @@ import { FAB, Card, Title, Paragraph } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../styles/styles';
 
-const API_URL = 'http://172.26.58.61:3000';
+const API_URL = 'http://192.168.1.62:3000';
 
 export default function HomeScreen() {
   const [hotwheels, setHotwheels] = useState([]);
